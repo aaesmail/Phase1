@@ -388,6 +388,31 @@ int main()
 				pOut->PrintMessage("Action: SendBack Click, Click anywhere");
 				break;
 
+		case TO_BLACK:
+				pOut->PrintMessage("Action: Black Click, Click anywhere");
+				pOut->CreateDrawToolBar();
+				break;
+
+		case TO_WHITE:
+				pOut->PrintMessage("Action: White Click, Click anywhere");
+				pOut->CreateDrawToolBar();
+				break;
+
+		case TO_RED:
+				pOut->PrintMessage("Action: Red Click, Click anywhere");
+				pOut->CreateDrawToolBar();
+				break;
+
+		case TO_GREEN:
+				pOut->PrintMessage("Action: Green Click, Click anywhere");
+				pOut->CreateDrawToolBar();
+				break;
+
+		case TO_BLUE:
+				pOut->PrintMessage("Action: Blue Click, Click anywhere");
+				pOut->CreateDrawToolBar();
+				break;
+
 		case EXIT:				
 				break;
 		}

@@ -35,6 +35,12 @@ enum ActionType //The actions supported (you can add more if needed)
 	RESIZE,
 	SNDFRNT,
 	SNDBK,
+	TO_BLACK,
+	TO_WHITE,
+	TO_RED,
+	TO_GREEN,
+	TO_BLUE,
+
 
 	CPY_FIG,
 	CUT_FIG,

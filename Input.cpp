@@ -136,11 +136,11 @@ ActionType Input::GetUserAction() const
 
 			switch (ClickedItemOrder)
 			{
-			case ITM_BLACK: return TO_DRAW;
-			case ITM_WHITE: return TO_DRAW;
-			case ITM_RED: return TO_DRAW;
-			case ITM_GREEN: return TO_DRAW;
-			case ITM_BLUE: return TO_DRAW;
+			case ITM_BLACK: return TO_BLACK;
+			case ITM_WHITE: return TO_WHITE;
+			case ITM_RED: return TO_RED;
+			case ITM_GREEN: return TO_GREEN;
+			case ITM_BLUE: return TO_BLUE;
 
 			default: return EMPTY;	//A click on empty place in desgin toolbar
 			}
